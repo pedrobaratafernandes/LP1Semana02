@@ -1,5 +1,8 @@
 <Solution>
+  <Project Path="BreakContinue/BreakContinue.csproj" />
+  <Project Path="ChatGPTOne/ChatGPTOne.csproj" />
   <Project Path="Cilindro/Cilindro.csproj" />
+  <Project Path="IfExample/IfExample.csproj" />
   <Project Path="SmoothOperator/SmoothOperator.csproj" />
   <Project Path="ValoresEspeciais/ValoresEspeciais.csproj" />
   <Project Path="VariousOperators/VariousOperators.csproj" />
