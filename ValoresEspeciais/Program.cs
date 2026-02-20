@@ -23,6 +23,37 @@ namespace ValoresEspeciais
             Console.WriteLine($"double:  {double.MinValue} a {double.MaxValue}");
             Console.WriteLine($"decimal: {decimal.MinValue} a {decimal.MaxValue}");
 
+
+            double ad = double.PositiveInfinity;
+            double bd = double.NegativeInfinity;
+            double cd = double.PositiveInfinity;
+
+            float af = float.PositiveInfinity;
+            float bf = float.NegativeInfinity;
+            float cf = float.PositiveInfinity;
+
+            //NaN
+            double xd = double.PositiveInfinity / double.PositiveInfinity;
+            double xf = float.PositiveInfinity / float.PositiveInfinity;
+            
+            //NaN Direto 
+            float zf = float.NaN;
+            double zd = double.NaN;
+            Console.WriteLine(ad);
+            Console.WriteLine(bd);
+            Console.WriteLine(cd);
+
+            Console.WriteLine(af);
+            Console.WriteLine(bf);
+            Console.WriteLine(cf);
+
+
+            Console.WriteLine(xd);
+            Console.WriteLine(zd);
+
+            Console.WriteLine(xf);
+            Console.WriteLine(zf);
+
         }
     }
 }
