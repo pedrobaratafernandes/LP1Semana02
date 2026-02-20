@@ -7,7 +7,9 @@ namespace Cilindro
         private static void Main(string[] args)
         {
             Console.Write("Altura: ");
-            double altura = double.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
+            Console.Write("Raio: ");
+            double r = double.Parse(Console.ReadLine());
         }
     }
 }
