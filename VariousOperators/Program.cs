@@ -20,6 +20,10 @@ namespace VariousOperators
                 Console.WriteLine("numero negativo");
             }
 
+            // resultado de overflow em uints
+            uint x = uint.MaxValue;
+            Console.WriteLine(x + 1);
+
 
         }
     }
