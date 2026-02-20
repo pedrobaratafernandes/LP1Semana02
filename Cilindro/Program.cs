@@ -11,7 +11,9 @@ namespace Cilindro
             Console.Write("Raio: ");
             double r = double.Parse(Console.ReadLine());
             double v = Math.PI * Math.Pow(r, 2) * a;
-            Console.WriteLine($"Volume: {v}");
+            Console.WriteLine($"Volume: {v:f3}");
+            double area = 2*Math.PI*r*(r+a);
+            Console.WriteLine($"Area: {area:f3}");
         }
     }
 }
