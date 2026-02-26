@@ -31,6 +31,10 @@ namespace TempConvert
                     float total = Math.Abs(total_fah);
                     Console.Write($"Absolute value: {total:f2}");
                     break;
+
+                default:
+                    Console.Write("Invalid unit.");
+                    break;
             }
 
         }
